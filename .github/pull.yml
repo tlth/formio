@@ -6,9 +6,6 @@ rules:                      # Array of rules
     mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
   - base: dev
     upstream: master        # Required. Can be a branch in the same forked repo.
-    assignees:              # Optional
-    reviewers:              # Optional
-    conflictReviewers:      # Optional, on merge conflict assign a reviewer
 
 conflictLabel: "merge-conflict"     # Optional, on merge conflict assign a custom label, Default: merge-conflict
 
