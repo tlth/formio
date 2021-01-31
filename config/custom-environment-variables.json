@@ -1,7 +1,8 @@
 {
 	"protocol": "FORMIO_PROTOCOL",
-	"appHost": "FORMIO_HOST",
+	"host": "FORMIO_HOST",
 	"appPort": "FORMIO_PORT",
+	"domain": "FORMIO_DOMAIN",
 	"mongo": "MONGO",
 	"mongoSecret": "MONGO_SECRET",
 	"jwt": {
