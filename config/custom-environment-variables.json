@@ -1,10 +1,12 @@
 {
 	"protocol": "FORMIO_PROTOCOL",
+
         "host": "FORMIO_HOST",
         "appPort": "FORMIO_PORT",
         "domain": "FORMIO_DOMAIN",
         "mongo": "MONGO",
         "mongoSecret": "MONGO_SECRET",
+
 	"jwt": {
 		"secret": "JWT_SECRET",
 		"expireTime": "JWT_EXPIRE_TIME"
